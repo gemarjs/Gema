@@ -1,0 +1,30 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: violet;
+    width: 95%;
+    max-width: 1000px;
+    margin: auto;
+}
+.menu li a{
+    text-decoration: none;
+    color: darkmagenta;
+    padding: 23%;
+    display: block;
+}
+.menu li{
+    display: block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: violet;
+}
+h1, h2{
+    font-family: fantasy;
+}
+p{
+    font-family: fantasy;
+}

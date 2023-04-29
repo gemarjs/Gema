@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta aria-level="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina Principal</title>
+        <link rel="stylesheet" style="text-/css" href="stile1.css">
+    </head>
+    <body>
+        <body bgcolor="#FFF5EE">
+            <ul class="menu">
+                <li><a href="Pagina principal.html">Pagina Principal</a></li>
+                <li><a href="Textos.html">Textos</a></li>
+                <li><a href="Tablas.html">Tablas</a></li>
+                <li><a href="Formularios.html">Formularios</a></li>
+            </ul>
+<br><br>
+<center>
+    <h1>Formularios</h1>
+    <h2>Uso de formularios</h2>
+    <p>Los formularios en las paginas web se ocupan principalmente para la obtencion de informacion<br>
+    de los usiarios para almacenarlos en una base de datos y llevar un orden en cuento a eso se refiere</p>
+    <br>
+    <p>Cada secuencia en el siguiente formulario se ocupan para un tipo de registro diferente, algunos solo<br>
+    permiten un tipo de texto en especifico y otras se ocupan para uno o mas registros en una sola sentencia</p>
+</center>
+    <form>
+        <fieldset>
+            <legend>Formulario</legend>
+            <br>
+            <label>Nombre:</label>
+            <input type="text" placeholder="Nombre"><br><br>
+            <label>Curso:</label>
+            <input type="radio" name="Curso" value="Paginas web">Creacion de paginas web 
+            <input type="radio" name="Curso" value="BD">Bases de datos
+            <input type="radio" name="Curso" value="Aplicaciones">Desarrollo de aplicaciones<br><br>
+            <label>Lenguajes del curso:</label>
+            <input type="checkbox" name="Lenguajes" value="html">html<br>
+            <input type="checkbox" name="Lenguajes" value="css">css<br>
+            <input type="checkbox" name="Lenguajes" value="java">java<br>
+            <input type="checkbox" name="Lenguajes" value="php">`php<br>
+            <input type="checkbox" name="Lenguajes" value="mysql">mysql<br><br>
+            <label>Grupo:</label>
+            <select>
+                <option>Grupo 1</option>
+                <option>Grupo 2</option>
+                <option>Grupo 3</option>
+                <option>No tengo grupo</option>
+            </select>
+            <br><br>
+            <label>Comentarios:</label><br>
+            <textarea name="Comentarios" rows="15" cols="80" placeholder="Escribe tu comentario"></textarea><br><br>
+            <input type="button" class="bt" value="Enviar datos">
+            <input type="reset" class="bt" value="Borrar datos">
+            <input type="file" class="bt" value="Examinar"><br><br>
+        </fieldset>
+    </form>
+    </html>
